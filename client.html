@@ -1,0 +1,74 @@
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <script type="text/javascript" src="/node_modules/web3/dist/web3.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="/server.js"></script>
+    <script type="text/javascript" src="/client.js"></script>
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <title> Asset Tracking on Blockchain</title>
+  </head>
+
+  <body>
+
+<table> <tr><td><td>
+
+    <br><br>
+    <table >
+      <tr> 
+          <td> <button type="button" id="viewToken"  class="btn btn-primary">View All Assets </button></td>
+      </tr>
+    </table>
+
+
+
+
+    <br><br>
+    <table>
+      <tr> 
+        <td> <button type="button" id="traceToken"  class="btn btn-primary">Trace Assets By Id</button> </td>
+        <td> <button type="button" id="traceAllToken"  class="btn btn-primary">Trace All Assets</button> </td>
+      </tr>
+      <tr> 
+          <td>Enter ID </td>
+          <td><input type="text" id="assetId" name="Asset Id"> </td>
+      </tr>
+    </table>
+
+
+
+
+    <br><br>
+    <table >
+
+        <tr> 
+          <td> <button type="button" id="assetTransfer"  class="btn btn-primary">Asset Transfer</button> </td> 
+        </tr>
+        <tr> 
+          <td>Asset ID </td>
+          <td>To Address </td>
+        </tr>
+        <tr>
+          <td> <input type="text" id="assetID" name="Token ID" size="40"> </td>
+          <td> <input type="text" id="toAdd" name="toAddress" size="40"> </td>
+        </tr>
+
+    </table>
+
+
+
+</td></td></tr></table>
+
+
+    <br><br>
+    <div id="mydiv">
+    </div>
+
+  </body>
+
+
+
+</html>
