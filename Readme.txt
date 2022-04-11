@@ -4,14 +4,14 @@ Steps:
 
 1. clone the repo to your local folder (eg, cryptoAssets) and deploy the dapp successfully
 //deploye the smart contract on ganache
-  - open ganache HTTP://127.0.0.1:8545
+  - open ganache HTTP://127.0.0.1:7545
   - change the port number(8545) on truffle-config.js
   - migrate the contract, .../cryptoAssets> truffle migrate --reset
   - copy the smart contract deplyeed address and change it on server.js (contractAddress)
   -save all
   
 //run node server
-2. open windows power shell, go to the folder c:/.../cryptoAssets
+2. open windows power shell, go to the folder c:/.../PUBASSETS
 3. open node server. cryptoAssets> node app.js
 
 //creating and manipulating assets
