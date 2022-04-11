@@ -48,7 +48,7 @@ app.post('/addToken', async(req,res)=>{
 
 //read abi
 app.get('/abi', function(req,res){
-	var contract_json = "../cryptoAssets/build/contracts/MyAsset.json";
+	var contract_json = "../PUBASSETS/build/contracts/MyAsset.json";
 	var parsed= JSON.parse(fs.readFileSync(contract_json));
 	var abi = parsed.abi;
 	res.send(abi);

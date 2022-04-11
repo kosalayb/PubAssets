@@ -6,7 +6,7 @@
       console.log('Install Metamask');
     }
 
-    var provider = 'http://127.0.0.1:8545';
+    var provider = 'http://127.0.0.1:7545';
     var web3Provider = new Web3.providers.HttpProvider(provider);
     var web3 = new Web3(web3Provider);
 
@@ -19,7 +19,7 @@
     var instance;
 
 
-    var contractAddress ='0xD50A050395E06294a30A76621434E4d71E80b8cD';
+    var contractAddress ='0xD593270590b39EFBCe4eaCbB1061BFC12f9cfdf6';
     var contractABI;
 
     //read abi from rest call
